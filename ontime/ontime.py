@@ -1,10 +1,11 @@
 import notifypy
 import time
-import sys
+# import sys
 
 notification = notifypy.Notify()
 
-usertime = sys.argv[1]
+# usertime = sys.argv[1]
+usertime = input("Enter when you want to set: ")
 
 def done(usert):
 	notification.title = f"Time is {usert}"
