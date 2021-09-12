@@ -8,6 +8,7 @@ os.system("mv exe/a.out exe/ontime")
 os.system("sudo cp -r exe/ontime /bin")
 os.system("mkdir ~/.ontime")
 os.system("cp -r ontime/ontime.py ~/.ontime")
+os.system("cp -r ontime/files ~/.ontime")
 os.system("rm -rf exe a.out")
 os.system("pip3 install notify-py")
 
