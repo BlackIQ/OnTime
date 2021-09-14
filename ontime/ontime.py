@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import notifypy
 import getpass
 import time
